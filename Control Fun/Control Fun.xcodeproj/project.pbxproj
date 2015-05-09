@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DFB5C4C17C090E7003A4391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFB5C4B17C090E7003A4391 /* UIKit.framework */; };
+		5DFB5C4E17C090E7003A4391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFB5C4D17C090E7003A4391 /* Foundation.framework */; };
+		5DFB5C5017C090E7003A4391 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFB5C4F17C090E7003A4391 /* CoreGraphics.framework */; };
+		5DFB5C5617C090E7003A4391 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB5C5417C090E7003A4391 /* InfoPlist.strings */; };
+		5DFB5C5817C090E7003A4391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB5C5717C090E7003A4391 /* main.m */; };
+		5DFB5C5C17C090E7003A4391 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB5C5B17C090E7003A4391 /* BIDAppDelegate.m */; };
+		5DFB5C5E17C090E7003A4391 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB5C5D17C090E7003A4391 /* Default.png */; };
+		5DFB5C6017C090E7003A4391 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB5C5F17C090E7003A4391 /* Default@2x.png */; };
+		5DFB5C6217C090E7003A4391 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB5C6117C090E7003A4391 /* Default-568h@2x.png */; };
+		5DFB5C6517C090E7003A4391 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB5C6417C090E7003A4391 /* BIDViewController.m */; };
+		5DFB5C6817C090E7003A4391 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB5C6617C090E7003A4391 /* BIDViewController.xib */; };
+		5DFB5C6F17C09515003A4391 /* apress_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB5C6E17C09515003A4391 /* apress_logo.png */; };
+		5DFB5C7117C0F7A1003A4391 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB5C7017C0F7A1003A4391 /* blueButton.png */; };
+		5DFB5C7317C0F7AA003A4391 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DFB5C7217C0F7AA003A4391 /* whiteButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DFB5C4817C090E7003A4391 /* Control Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFB5C4B17C090E7003A4391 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DFB5C4D17C090E7003A4391 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DFB5C4F17C090E7003A4391 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DFB5C5317C090E7003A4391 /* Control Fun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Control Fun-Info.plist"; sourceTree = "<group>"; };
+		5DFB5C5517C090E7003A4391 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DFB5C5717C090E7003A4391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DFB5C5917C090E7003A4391 /* Control Fun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Control Fun-Prefix.pch"; sourceTree = "<group>"; };
+		5DFB5C5A17C090E7003A4391 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		5DFB5C5B17C090E7003A4391 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		5DFB5C5D17C090E7003A4391 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5DFB5C5F17C090E7003A4391 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5DFB5C6117C090E7003A4391 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5DFB5C6317C090E7003A4391 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
+		5DFB5C6417C090E7003A4391 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
+		5DFB5C6717C090E7003A4391 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		5DFB5C6E17C09515003A4391 /* apress_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apress_logo.png; sourceTree = "<group>"; };
+		5DFB5C7017C0F7A1003A4391 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		5DFB5C7217C0F7AA003A4391 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DFB5C4517C090E7003A4391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFB5C4C17C090E7003A4391 /* UIKit.framework in Frameworks */,
+				5DFB5C4E17C090E7003A4391 /* Foundation.framework in Frameworks */,
+				5DFB5C5017C090E7003A4391 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DFB5C3F17C090E7003A4391 = {
+			isa = PBXGroup;
+			children = (
+				5DFB5C5117C090E7003A4391 /* Control Fun */,
+				5DFB5C4A17C090E7003A4391 /* Frameworks */,
+				5DFB5C4917C090E7003A4391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DFB5C4917C090E7003A4391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DFB5C4817C090E7003A4391 /* Control Fun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DFB5C4A17C090E7003A4391 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DFB5C4B17C090E7003A4391 /* UIKit.framework */,
+				5DFB5C4D17C090E7003A4391 /* Foundation.framework */,
+				5DFB5C4F17C090E7003A4391 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DFB5C5117C090E7003A4391 /* Control Fun */ = {
+			isa = PBXGroup;
+			children = (
+				5DFB5C5A17C090E7003A4391 /* BIDAppDelegate.h */,
+				5DFB5C5B17C090E7003A4391 /* BIDAppDelegate.m */,
+				5DFB5C6317C090E7003A4391 /* BIDViewController.h */,
+				5DFB5C6417C090E7003A4391 /* BIDViewController.m */,
+				5DFB5C6617C090E7003A4391 /* BIDViewController.xib */,
+				5DFB5C5217C090E7003A4391 /* Supporting Files */,
+			);
+			path = "Control Fun";
+			sourceTree = "<group>";
+		};
+		5DFB5C5217C090E7003A4391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DFB5C7217C0F7AA003A4391 /* whiteButton.png */,
+				5DFB5C7017C0F7A1003A4391 /* blueButton.png */,
+				5DFB5C6E17C09515003A4391 /* apress_logo.png */,
+				5DFB5C5317C090E7003A4391 /* Control Fun-Info.plist */,
+				5DFB5C5417C090E7003A4391 /* InfoPlist.strings */,
+				5DFB5C5717C090E7003A4391 /* main.m */,
+				5DFB5C5917C090E7003A4391 /* Control Fun-Prefix.pch */,
+				5DFB5C5D17C090E7003A4391 /* Default.png */,
+				5DFB5C5F17C090E7003A4391 /* Default@2x.png */,
+				5DFB5C6117C090E7003A4391 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DFB5C4717C090E7003A4391 /* Control Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DFB5C6B17C090E7003A4391 /* Build configuration list for PBXNativeTarget "Control Fun" */;
+			buildPhases = (
+				5DFB5C4417C090E7003A4391 /* Sources */,
+				5DFB5C4517C090E7003A4391 /* Frameworks */,
+				5DFB5C4617C090E7003A4391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Control Fun";
+			productName = "Control Fun";
+			productReference = 5DFB5C4817C090E7003A4391 /* Control Fun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DFB5C4017C090E7003A4391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rydge Lee";
+			};
+			buildConfigurationList = 5DFB5C4317C090E7003A4391 /* Build configuration list for PBXProject "Control Fun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DFB5C3F17C090E7003A4391;
+			productRefGroup = 5DFB5C4917C090E7003A4391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DFB5C4717C090E7003A4391 /* Control Fun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DFB5C4617C090E7003A4391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFB5C5617C090E7003A4391 /* InfoPlist.strings in Resources */,
+				5DFB5C5E17C090E7003A4391 /* Default.png in Resources */,
+				5DFB5C6017C090E7003A4391 /* Default@2x.png in Resources */,
+				5DFB5C6217C090E7003A4391 /* Default-568h@2x.png in Resources */,
+				5DFB5C6817C090E7003A4391 /* BIDViewController.xib in Resources */,
+				5DFB5C6F17C09515003A4391 /* apress_logo.png in Resources */,
+				5DFB5C7117C0F7A1003A4391 /* blueButton.png in Resources */,
+				5DFB5C7317C0F7AA003A4391 /* whiteButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DFB5C4417C090E7003A4391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFB5C5817C090E7003A4391 /* main.m in Sources */,
+				5DFB5C5C17C090E7003A4391 /* BIDAppDelegate.m in Sources */,
+				5DFB5C6517C090E7003A4391 /* BIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5DFB5C5417C090E7003A4391 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DFB5C5517C090E7003A4391 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DFB5C6617C090E7003A4391 /* BIDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DFB5C6717C090E7003A4391 /* en */,
+			);
+			name = BIDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DFB5C6917C090E7003A4391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DFB5C6A17C090E7003A4391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DFB5C6C17C090E7003A4391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DFB5C6D17C090E7003A4391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Control Fun/Control Fun-Prefix.pch";
+				INFOPLIST_FILE = "Control Fun/Control Fun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DFB5C4317C090E7003A4391 /* Build configuration list for PBXProject "Control Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFB5C6917C090E7003A4391 /* Debug */,
+				5DFB5C6A17C090E7003A4391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DFB5C6B17C090E7003A4391 /* Build configuration list for PBXNativeTarget "Control Fun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFB5C6C17C090E7003A4391 /* Debug */,
+				5DFB5C6D17C090E7003A4391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DFB5C4017C090E7003A4391 /* Project object */;
+}

@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D24962417B6080F00FBAC15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D24962317B6080F00FBAC15 /* UIKit.framework */; };
+		5D24962617B6080F00FBAC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D24962517B6080F00FBAC15 /* Foundation.framework */; };
+		5D24962817B6080F00FBAC15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D24962717B6080F00FBAC15 /* CoreGraphics.framework */; };
+		5D24962E17B6080F00FBAC15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D24962C17B6080F00FBAC15 /* InfoPlist.strings */; };
+		5D24963017B6080F00FBAC15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D24962F17B6080F00FBAC15 /* main.m */; };
+		5D24963417B6080F00FBAC15 /* HappyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D24963317B6080F00FBAC15 /* HappyAppDelegate.m */; };
+		5D24963617B6080F00FBAC15 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D24963517B6080F00FBAC15 /* Default.png */; };
+		5D24963817B6080F00FBAC15 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D24963717B6080F00FBAC15 /* Default@2x.png */; };
+		5D24963A17B6080F00FBAC15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D24963917B6080F00FBAC15 /* Default-568h@2x.png */; };
+		5D24963D17B6080F00FBAC15 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D24963B17B6080F00FBAC15 /* MainStoryboard.storyboard */; };
+		5D24964017B6080F00FBAC15 /* HappyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D24963F17B6080F00FBAC15 /* HappyViewController.m */; };
+		5D24964817B6088800FBAC15 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D24964717B6088800FBAC15 /* FaceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D24962017B6080F00FBAC15 /* Happy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D24962317B6080F00FBAC15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D24962517B6080F00FBAC15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D24962717B6080F00FBAC15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D24962B17B6080F00FBAC15 /* Happy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Happy-Info.plist"; sourceTree = "<group>"; };
+		5D24962D17B6080F00FBAC15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D24962F17B6080F00FBAC15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D24963117B6080F00FBAC15 /* Happy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Happy-Prefix.pch"; sourceTree = "<group>"; };
+		5D24963217B6080F00FBAC15 /* HappyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyAppDelegate.h; sourceTree = "<group>"; };
+		5D24963317B6080F00FBAC15 /* HappyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyAppDelegate.m; sourceTree = "<group>"; };
+		5D24963517B6080F00FBAC15 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5D24963717B6080F00FBAC15 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5D24963917B6080F00FBAC15 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5D24963C17B6080F00FBAC15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5D24963E17B6080F00FBAC15 /* HappyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyViewController.h; sourceTree = "<group>"; };
+		5D24963F17B6080F00FBAC15 /* HappyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyViewController.m; sourceTree = "<group>"; };
+		5D24964617B6088800FBAC15 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		5D24964717B6088800FBAC15 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D24961D17B6080F00FBAC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D24962417B6080F00FBAC15 /* UIKit.framework in Frameworks */,
+				5D24962617B6080F00FBAC15 /* Foundation.framework in Frameworks */,
+				5D24962817B6080F00FBAC15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D24961717B6080F00FBAC15 = {
+			isa = PBXGroup;
+			children = (
+				5D24962917B6080F00FBAC15 /* Happy */,
+				5D24962217B6080F00FBAC15 /* Frameworks */,
+				5D24962117B6080F00FBAC15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D24962117B6080F00FBAC15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D24962017B6080F00FBAC15 /* Happy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D24962217B6080F00FBAC15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D24962317B6080F00FBAC15 /* UIKit.framework */,
+				5D24962517B6080F00FBAC15 /* Foundation.framework */,
+				5D24962717B6080F00FBAC15 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D24962917B6080F00FBAC15 /* Happy */ = {
+			isa = PBXGroup;
+			children = (
+				5D24963217B6080F00FBAC15 /* HappyAppDelegate.h */,
+				5D24963317B6080F00FBAC15 /* HappyAppDelegate.m */,
+				5D24963B17B6080F00FBAC15 /* MainStoryboard.storyboard */,
+				5D24963E17B6080F00FBAC15 /* HappyViewController.h */,
+				5D24963F17B6080F00FBAC15 /* HappyViewController.m */,
+				5D24964617B6088800FBAC15 /* FaceView.h */,
+				5D24964717B6088800FBAC15 /* FaceView.m */,
+				5D24962A17B6080F00FBAC15 /* Supporting Files */,
+			);
+			path = Happy;
+			sourceTree = "<group>";
+		};
+		5D24962A17B6080F00FBAC15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D24962B17B6080F00FBAC15 /* Happy-Info.plist */,
+				5D24962C17B6080F00FBAC15 /* InfoPlist.strings */,
+				5D24962F17B6080F00FBAC15 /* main.m */,
+				5D24963117B6080F00FBAC15 /* Happy-Prefix.pch */,
+				5D24963517B6080F00FBAC15 /* Default.png */,
+				5D24963717B6080F00FBAC15 /* Default@2x.png */,
+				5D24963917B6080F00FBAC15 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D24961F17B6080F00FBAC15 /* Happy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D24964317B6080F00FBAC15 /* Build configuration list for PBXNativeTarget "Happy" */;
+			buildPhases = (
+				5D24961C17B6080F00FBAC15 /* Sources */,
+				5D24961D17B6080F00FBAC15 /* Frameworks */,
+				5D24961E17B6080F00FBAC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Happy;
+			productName = Happy;
+			productReference = 5D24962017B6080F00FBAC15 /* Happy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D24961817B6080F00FBAC15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Happy;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rydge Lee";
+			};
+			buildConfigurationList = 5D24961B17B6080F00FBAC15 /* Build configuration list for PBXProject "Happy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D24961717B6080F00FBAC15;
+			productRefGroup = 5D24962117B6080F00FBAC15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D24961F17B6080F00FBAC15 /* Happy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D24961E17B6080F00FBAC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D24962E17B6080F00FBAC15 /* InfoPlist.strings in Resources */,
+				5D24963617B6080F00FBAC15 /* Default.png in Resources */,
+				5D24963817B6080F00FBAC15 /* Default@2x.png in Resources */,
+				5D24963A17B6080F00FBAC15 /* Default-568h@2x.png in Resources */,
+				5D24963D17B6080F00FBAC15 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D24961C17B6080F00FBAC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D24963017B6080F00FBAC15 /* main.m in Sources */,
+				5D24963417B6080F00FBAC15 /* HappyAppDelegate.m in Sources */,
+				5D24964017B6080F00FBAC15 /* HappyViewController.m in Sources */,
+				5D24964817B6088800FBAC15 /* FaceView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D24962C17B6080F00FBAC15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D24962D17B6080F00FBAC15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D24963B17B6080F00FBAC15 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D24963C17B6080F00FBAC15 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D24964117B6080F00FBAC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D24964217B6080F00FBAC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D24964417B6080F00FBAC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Happy/Happy-Prefix.pch";
+				INFOPLIST_FILE = "Happy/Happy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D24964517B6080F00FBAC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Happy/Happy-Prefix.pch";
+				INFOPLIST_FILE = "Happy/Happy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D24961B17B6080F00FBAC15 /* Build configuration list for PBXProject "Happy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D24964117B6080F00FBAC15 /* Debug */,
+				5D24964217B6080F00FBAC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D24964317B6080F00FBAC15 /* Build configuration list for PBXNativeTarget "Happy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D24964417B6080F00FBAC15 /* Debug */,
+				5D24964517B6080F00FBAC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D24961817B6080F00FBAC15 /* Project object */;
+}

@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D20C54717C1F01700F298D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D20C54617C1F01700F298D4 /* UIKit.framework */; };
+		5D20C54917C1F01700F298D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D20C54817C1F01700F298D4 /* Foundation.framework */; };
+		5D20C54B17C1F01700F298D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D20C54A17C1F01700F298D4 /* CoreGraphics.framework */; };
+		5D20C55117C1F01700F298D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D20C54F17C1F01700F298D4 /* InfoPlist.strings */; };
+		5D20C55317C1F01700F298D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D20C55217C1F01700F298D4 /* main.m */; };
+		5D20C55717C1F01700F298D4 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D20C55617C1F01700F298D4 /* BIDAppDelegate.m */; };
+		5D20C55917C1F01700F298D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D20C55817C1F01700F298D4 /* Default.png */; };
+		5D20C55B17C1F01700F298D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D20C55A17C1F01700F298D4 /* Default@2x.png */; };
+		5D20C55D17C1F01700F298D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D20C55C17C1F01700F298D4 /* Default-568h@2x.png */; };
+		5D20C56517C1F0E600F298D4 /* BIDSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D20C56417C1F0E600F298D4 /* BIDSwitchViewController.m */; };
+		5D20C56817C1F13800F298D4 /* BIDBuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D20C56717C1F13800F298D4 /* BIDBuleViewController.m */; };
+		5D20C56B17C1F16100F298D4 /* BIDYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D20C56A17C1F16100F298D4 /* BIDYellowViewController.m */; };
+		5D20C56D17C1F19900F298D4 /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D20C56C17C1F19900F298D4 /* SwitchView.xib */; };
+		5D20C56F17C1F1B600F298D4 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D20C56E17C1F1B600F298D4 /* BlueView.xib */; };
+		5D20C57117C1F1C600F298D4 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D20C57017C1F1C600F298D4 /* YellowView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D20C54317C1F01700F298D4 /* View Swicher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Swicher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D20C54617C1F01700F298D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D20C54817C1F01700F298D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D20C54A17C1F01700F298D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D20C54E17C1F01700F298D4 /* View Swicher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View Swicher-Info.plist"; sourceTree = "<group>"; };
+		5D20C55017C1F01700F298D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D20C55217C1F01700F298D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D20C55417C1F01700F298D4 /* View Swicher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Swicher-Prefix.pch"; sourceTree = "<group>"; };
+		5D20C55517C1F01700F298D4 /* BIDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDAppDelegate.h; sourceTree = "<group>"; };
+		5D20C55617C1F01700F298D4 /* BIDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDAppDelegate.m; sourceTree = "<group>"; };
+		5D20C55817C1F01700F298D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5D20C55A17C1F01700F298D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5D20C55C17C1F01700F298D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5D20C56317C1F0E600F298D4 /* BIDSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSwitchViewController.h; sourceTree = "<group>"; };
+		5D20C56417C1F0E600F298D4 /* BIDSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSwitchViewController.m; sourceTree = "<group>"; };
+		5D20C56617C1F13800F298D4 /* BIDBuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDBuleViewController.h; sourceTree = "<group>"; };
+		5D20C56717C1F13800F298D4 /* BIDBuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDBuleViewController.m; sourceTree = "<group>"; };
+		5D20C56917C1F16100F298D4 /* BIDYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDYellowViewController.h; sourceTree = "<group>"; };
+		5D20C56A17C1F16100F298D4 /* BIDYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDYellowViewController.m; sourceTree = "<group>"; };
+		5D20C56C17C1F19900F298D4 /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		5D20C56E17C1F1B600F298D4 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
+		5D20C57017C1F1C600F298D4 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D20C54017C1F01700F298D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D20C54717C1F01700F298D4 /* UIKit.framework in Frameworks */,
+				5D20C54917C1F01700F298D4 /* Foundation.framework in Frameworks */,
+				5D20C54B17C1F01700F298D4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D20C53A17C1F01700F298D4 = {
+			isa = PBXGroup;
+			children = (
+				5D20C54C17C1F01700F298D4 /* View Swicher */,
+				5D20C54517C1F01700F298D4 /* Frameworks */,
+				5D20C54417C1F01700F298D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D20C54417C1F01700F298D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D20C54317C1F01700F298D4 /* View Swicher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D20C54517C1F01700F298D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D20C54617C1F01700F298D4 /* UIKit.framework */,
+				5D20C54817C1F01700F298D4 /* Foundation.framework */,
+				5D20C54A17C1F01700F298D4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D20C54C17C1F01700F298D4 /* View Swicher */ = {
+			isa = PBXGroup;
+			children = (
+				5D20C55517C1F01700F298D4 /* BIDAppDelegate.h */,
+				5D20C55617C1F01700F298D4 /* BIDAppDelegate.m */,
+				5D20C56317C1F0E600F298D4 /* BIDSwitchViewController.h */,
+				5D20C56417C1F0E600F298D4 /* BIDSwitchViewController.m */,
+				5D20C56617C1F13800F298D4 /* BIDBuleViewController.h */,
+				5D20C56717C1F13800F298D4 /* BIDBuleViewController.m */,
+				5D20C56917C1F16100F298D4 /* BIDYellowViewController.h */,
+				5D20C56A17C1F16100F298D4 /* BIDYellowViewController.m */,
+				5D20C54D17C1F01700F298D4 /* Supporting Files */,
+				5D20C56C17C1F19900F298D4 /* SwitchView.xib */,
+				5D20C56E17C1F1B600F298D4 /* BlueView.xib */,
+				5D20C57017C1F1C600F298D4 /* YellowView.xib */,
+			);
+			path = "View Swicher";
+			sourceTree = "<group>";
+		};
+		5D20C54D17C1F01700F298D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D20C54E17C1F01700F298D4 /* View Swicher-Info.plist */,
+				5D20C54F17C1F01700F298D4 /* InfoPlist.strings */,
+				5D20C55217C1F01700F298D4 /* main.m */,
+				5D20C55417C1F01700F298D4 /* View Swicher-Prefix.pch */,
+				5D20C55817C1F01700F298D4 /* Default.png */,
+				5D20C55A17C1F01700F298D4 /* Default@2x.png */,
+				5D20C55C17C1F01700F298D4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D20C54217C1F01700F298D4 /* View Swicher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D20C56017C1F01700F298D4 /* Build configuration list for PBXNativeTarget "View Swicher" */;
+			buildPhases = (
+				5D20C53F17C1F01700F298D4 /* Sources */,
+				5D20C54017C1F01700F298D4 /* Frameworks */,
+				5D20C54117C1F01700F298D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "View Swicher";
+			productName = "View Swicher";
+			productReference = 5D20C54317C1F01700F298D4 /* View Swicher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D20C53B17C1F01700F298D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BID;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rydge Lee";
+			};
+			buildConfigurationList = 5D20C53E17C1F01700F298D4 /* Build configuration list for PBXProject "View Swicher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D20C53A17C1F01700F298D4;
+			productRefGroup = 5D20C54417C1F01700F298D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D20C54217C1F01700F298D4 /* View Swicher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D20C54117C1F01700F298D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D20C55117C1F01700F298D4 /* InfoPlist.strings in Resources */,
+				5D20C55917C1F01700F298D4 /* Default.png in Resources */,
+				5D20C55B17C1F01700F298D4 /* Default@2x.png in Resources */,
+				5D20C55D17C1F01700F298D4 /* Default-568h@2x.png in Resources */,
+				5D20C56D17C1F19900F298D4 /* SwitchView.xib in Resources */,
+				5D20C56F17C1F1B600F298D4 /* BlueView.xib in Resources */,
+				5D20C57117C1F1C600F298D4 /* YellowView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D20C53F17C1F01700F298D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D20C55317C1F01700F298D4 /* main.m in Sources */,
+				5D20C55717C1F01700F298D4 /* BIDAppDelegate.m in Sources */,
+				5D20C56517C1F0E600F298D4 /* BIDSwitchViewController.m in Sources */,
+				5D20C56817C1F13800F298D4 /* BIDBuleViewController.m in Sources */,
+				5D20C56B17C1F16100F298D4 /* BIDYellowViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D20C54F17C1F01700F298D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D20C55017C1F01700F298D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D20C55E17C1F01700F298D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D20C55F17C1F01700F298D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D20C56117C1F01700F298D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Swicher/View Swicher-Prefix.pch";
+				INFOPLIST_FILE = "View Swicher/View Swicher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D20C56217C1F01700F298D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "View Swicher/View Swicher-Prefix.pch";
+				INFOPLIST_FILE = "View Swicher/View Swicher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D20C53E17C1F01700F298D4 /* Build configuration list for PBXProject "View Swicher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D20C55E17C1F01700F298D4 /* Debug */,
+				5D20C55F17C1F01700F298D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D20C56017C1F01700F298D4 /* Build configuration list for PBXNativeTarget "View Swicher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D20C56117C1F01700F298D4 /* Debug */,
+				5D20C56217C1F01700F298D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D20C53B17C1F01700F298D4 /* Project object */;
+}
